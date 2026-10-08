@@ -6,6 +6,7 @@
 <title>Jayesh Patil | Data Engineer | AI/ML Engineer | GenAI Developer</title>
 <meta name="description" content="Data Engineer and AI/ML Engineer building intelligent data systems, machine learning applications and GenAI solutions.">
 <meta property="og:title" content="Jayesh Patil | Data Engineer | AI/ML Engineer | GenAI Developer"><meta property="og:type" content="website"><meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='56' font-size='56'%3E%F0%9F%8D%81%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
 :root{--bg:#07090d;--s:#0d1118;--s2:#131925;--ink:#eef1f6;--mute:#8a94a6;--line:#1d2533;--blue:#3b82f6;--cy:#22d3ee;--f:'Inter Tight',system-ui,sans-serif;--m:'JetBrains Mono',ui-monospace,monospace;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -25,7 +26,7 @@ h2{font:700 clamp(32px,5vw,56px)/1.05 var(--f);letter-spacing:-.03em;margin:0 0 
 /* nav */
 nav{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);width:min(1120px,calc(100% - 24px));z-index:50;display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border-radius:16px;border:1px solid transparent;transition:.3s}
 nav.sc{background:rgba(10,13,19,.72);backdrop-filter:blur(14px);border-color:var(--line)}
-.logo{font:700 16px var(--f)}.logo b{color:var(--cy);margin-right:8px}
+.logo{font:700 16px var(--f)}.logo b{font-size:19px;margin-right:8px;vertical-align:-1px}
 .links{display:flex;gap:4px}.links a{padding:6px 11px;border-radius:9px;font-size:14px;color:var(--mute);position:relative}
 .links a:hover{color:var(--ink)}.links a.on{color:var(--ink);background:var(--s2)}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:12px;font:600 15px var(--f);border:1px solid var(--line);background:var(--s);transition:border-color .2s,transform .15s;cursor:pointer;color:var(--ink)}
@@ -124,10 +125,10 @@ footer{border-top:1px solid var(--line);padding:26px 0 36px;color:var(--mute);fo
 </style>
 </head>
 <body>
-<div id="ld" aria-hidden="true">JP</div>
+<div id="ld" aria-hidden="true">🍁</div>
 <canvas id="bg" aria-hidden="true"></canvas><div id="glow"></div><div id="ring"></div><div id="toast" role="status"></div>
 <nav id="nav" aria-label="Primary">
-<a href="#home" class="logo"><b>JP</b>Jayesh Patil</a>
+<a href="#home" class="logo"><b aria-hidden="true">🍁</b>Jayesh Patil</a>
 <div class="links" id="lk"><a href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a></div>
 <a class="btn sm" href="#" data-resume>Resume</a><button id="burger" aria-label="Menu" aria-expanded="false"><i></i><i></i><i></i></button>
 </nav>
@@ -204,6 +205,7 @@ $('#sk').innerHTML=Object.keys(SK).map(function(k){return '<div class="sg rv"><h
 var G='https://github.com/Jack-tech32/';
 var PR=[
 {n:'NexoraAI',s:'AI-powered data analyst',c:['genai','ml'],t:['Python','Pandas','NumPy','Plotly','Streamlit','Ollama','Qwen','LLMs'],d:'Users often struggle to understand messy datasets and ask questions about trends, anomalies, and cleaning steps without technical expertise. I built a system to make that workflow easy and conversational.',solution:'NexoraAI profiles the dataset, identifies data quality issues, applies automatic cleaning, and then lets users ask analysis questions in natural language. The app combines data profiling, AI-guided insights, and visual storytelling into one workflow.',f:['Dataset profiling and quality checks','Missing-value and duplicate analysis','Automatic cleaning suggestions','Natural-language querying for insights','Interactive charts and explanations'],contribution:'I designed the end-to-end flow from ingestion to AI explanations, implemented the data analysis logic, and integrated LLM-driven interactions to make the app usable for non-technical users.',g:'https://github.com/Jack-tech32/NexoraAI'},
+{n:'Carousell — Online Marketplace',s:'Data engineering internship · 2GBR Software Pvt Ltd · 6 months',c:['de'],t:['Databricks','PySpark','Python','SQL','AWS S3','Git'],d:'The work focused on processing large marketplace datasets reliably and efficiently.',solution:'Developed end-to-end data pipelines using Databricks and PySpark for scalable data ingestion and transformation. Processed and optimized large datasets using SQL and distributed computing techniques to improve pipeline efficiency.',f:['Scalable data ingestion and transformation pipelines','Large-dataset processing with SQL and distributed computing','Data validation checks','Pipeline performance tuning'],contribution:'Collaborated with cross-functional teams and used Git for version control and code management.',g:''},
 {n:'HealthAI Suite',s:'Clinical AI analytics platform',c:['ml'],t:['Python','Machine Learning','Regression','CNN','Streamlit'],d:'Healthcare teams need faster, evidence-based decision support to identify patient risk and improve operational planning.',solution:'This project combines predictive modeling with a user-friendly interface so clinical and operations teams can review patient risk trends, outcome drivers, and image-based diagnostics in one place.',f:['Patient outcome prediction','Hospital length-of-stay forecasting','CNN-based pneumonia screening','Interactive Streamlit dashboard'],contribution:'I built the prediction workflows, prepared the data pipeline, and created the deployment-ready dashboard to present medical insights clearly.',g:G+'AIhealth'},
 {n:'Spam E-Mail Detection System',s:'NLP text classification',c:['ml'],t:['Python','NLP','Scikit-learn','TF-IDF','Streamlit'],d:'Classification systems must handle noisy text data while remaining fast enough for real-time decision-making and filtering.',solution:'I used preprocessing, TF-IDF feature extraction, and a supervised machine learning model to classify incoming messages as spam or legitimate content with a simple interface.',f:['Text preprocessing and cleaning','Tokenization and TF-IDF vectorization','Spam-vs-ham classification','Real-time prediction workflow'],contribution:'I implemented the model pipeline and built a lightweight interactive interface for quick testing and evaluation.',g:G+'Spam-Mail-Detection'},
 {n:'Crop Recommendation System',s:'Agricultural ML',c:['ml'],t:['Python','Scikit-learn','Random Forest','Streamlit'],d:'Farmers need practical recommendations based on soil and environmental conditions, but this decision-making often relies on manual experience and guesswork.',solution:'The system predicts the most suitable crops using key agricultural features and a trained classification model, making recommendations accessible through a simple web app.',f:['Agricultural feature analysis','Crop suitability prediction','Model-based recommendations','Streamlit interface'],contribution:'I built the model training workflow and created an app that turns prediction output into action-oriented recommendations.',g:''},
